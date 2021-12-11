@@ -1,0 +1,169 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.contenedor {
+  margin: auto;
+  width: 100%;
+  max-width: 1400px;
+}
+
+nav {
+  background: #8cc04b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+nav div a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  right: 410px;
+  font-size: 30px;
+  background-color: #437603;
+  padding: 10px;
+  letter-spacing: 1px;
+  transition: all 0, 3s;
+}
+
+nav div a:hover {
+  background-color: rgb(41, 63, 5);
+  color: #fff;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin: 0px;
+  padding: 15px 10px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+}
+
+ul li a:hover {
+  background: #437603;
+  color: #fff;
+}
+
+ul li.active {
+  background-color: #437603;
+  color: #fff;
+}
+
+p span {
+  color: #437603;
+}
+
+.contenedor nav i {
+  display: none;
+}
+
+#section-1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#section-1 h2 {
+  font-size: 30px;
+}
+
+img {
+  background-color: #000000;
+  width: 430px;
+  margin-top: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.waldo {
+  margin-top: 130px;
+  border-left: 6px solid #437603;
+  height: 190px;
+  padding-left: 15px;
+}
+
+.waldo p {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.waldo a {
+  background: #8cc04b;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+  color: #1a1919d3;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 40px;
+  border: 1px solid #000000;
+  padding: 10px;
+  box-shadow: 0px 3px 5px 0px;
+  transition: all 0, 3s;
+}
+
+.waldo a:hover {
+  background: rgb(41, 63, 5);
+  color: white;
+}
+
+.rds {
+  display: flex;
+}
+
+.rds span {
+  color: grey;
+  border-radius: 50%;
+  border: 1px solid #8cc04b;
+  padding: 10px;
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  font-size: 12px;
+  background: #1a1919;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  #section-1 {
+    width: 100%;
+    display: block;
+  }
+
+  img {
+    width: 200px;
+    border-radius: 50%;
+  }
+}
